@@ -1,0 +1,87 @@
+.sign-img img{
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 48px !important;
+}
+.hello{
+    background: transparent !important;
+    border-bottom: 1px solid #333333;
+    width: 370px !important;
+    outline: none !important;
+    font-size: 22px !important;
+    padding-left: 0px !important;
+    border-radius: 0px;
+    
+    height: 60px !important;
+    margin-left: 57px !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+   
+}
+.btns {
+    margin-left: 66px !important;
+    width: 58% !important;
+    text-align: center;
+    background: red !important;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: 22px !important;
+    color: white;
+    margin-top: 33px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.btns2 {
+    margin-left: 66px !important;
+    width: 58% !important;
+    text-align: center;
+    background: transparent !important;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #333333;
+    margin-top: -18px;
+    font-size: 22px !important;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.btns2 svg{
+    font-size: 37px !important;
+}
+
+
+.btns3 {
+    margin-left: 66px !important;
+    width: 58% !important;
+    text-align: center;
+    background: transparent !important;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+    color: black;
+    
+    margin-top: -18px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.register{
+    padding: 120px 0px !important;
+    font-family: "Iceland", sans-serif !important;
+}

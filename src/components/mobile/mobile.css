@@ -1,0 +1,14 @@
+.mobile{
+    padding: 120px 0px !important;
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .details{
+        text-align: center !important;
+    }
+    .yo{
+        margin: 0 auto !important;
+    }
+    .yo img{
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,79 @@
+.banner{
+    padding: 200px 0px;
+    background: url("../../assets/06.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ban-text{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400 !important;
+    /* background: red !important; */
+
+    /* font-family: "Barlow Condensed", sans-serif !important; */
+}
+.ban-text h1{
+    font-family: "Iceland", sans-serif !important;
+    font-size: 59px !important;
+    padding-bottom: 50px !important;
+}
+.ban-text h1 span{
+    color: #FFE03F !important;
+}
+.ban-text .cat{
+    height: 54px !important;
+    border: none;
+    width: 174px !important;
+    outline: none;
+    padding-left: 18px !important;
+    font-family: "Iceland", sans-serif !important;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-size: 18px !important;
+}
+.ban-text .search{
+    height: 54px;
+    border: none;
+    outline: none;
+    width: 474px !important;
+    padding-left: 26px !important;
+    font-family: "Iceland", sans-serif !important;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-size: 18px !important;
+}
+.ban-text p{
+    font-family: "Iceland", sans-serif !important;
+    font-size: 23px !important;
+    padding-top: 30px !important;
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+    .ban-text h1{
+        font-size: 47px !important;
+    }
+    .ban-text .cat {
+        height: 54px !important;
+        border: none;
+        width: 155px !important;
+        outline: none;
+        padding-left: 18px !important;
+        font-family: "Iceland", sans-serif !important;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        font-size: 18px !important;
+    }
+    .ban-text .search {
+        height: 54px;
+        border: none;
+        outline: none;
+        width: 319px !important;
+        padding-left: 26px !important;
+        font-family: "Iceland", sans-serif !important;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        font-size: 18px !important;
+    }
+}

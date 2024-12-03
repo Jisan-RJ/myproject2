@@ -1,0 +1,74 @@
+.laptop{
+    padding: 120px 0px !important;
+}
+.yo img{
+    width: 100% !important;
+}
+.details{
+    /* background: lightblue !important; */
+    padding: 158px 0px !important;
+    font-family: "Iceland", sans-serif !important;
+}
+.details h3{
+    font-size: 50px !important;
+}
+.details p{
+    font-size: 20px !important;
+    text-align: justify;
+}
+.details .price{
+    font-size: 35px !important;
+    text-decoration: none;
+    padding-right: 75px !important;
+    color: black !important;
+}
+.details .rate{
+    text-decoration: none;
+    font-size: 30px !important;
+    color:  black !important;
+}
+.details .rate svg{
+    font-size: 20px !important;
+}
+.dimension{
+    font-size: 29px !important;
+    text-align: center;
+    text-decoration: dashed black !important;
+}
+.details h5{
+    text-align: center;
+    
+}
+.yoyo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+    .details{
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .details{
+        text-align: center !important;
+    }
+    .details .price {
+        font-size: 28px !important;
+        text-decoration: none;
+        padding-right: 75px !important;
+        color: black !important;
+    }
+    .details .rate {
+        text-decoration: none;
+        font-size: 22px !important;
+        color: black !important;
+    }
+    .details h5 {
+        text-align: center;
+        font-size: 19px;
+    }
+}
